@@ -165,13 +165,13 @@ void ButtonTick() {
 
 	switch(Button_state) {
 		case Off:
-			button = 0x01;
+			button = 0x00;
 			break;
 		case Press:
 			button = 0x01;
 			break;
 		case Dud:
-			button = 0x01;
+			button = 0x00;
 			break;
 		default:
 			break;
